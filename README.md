@@ -13,7 +13,7 @@ This Application can be installed on your Discord server [here](https://discord.
 **Table of contents**
 
 - [Setup guide](https://github.com/R0mainMK/BowserGallery/blob/main/Setup.md)
-- Commands
+- [Commands](https://github.com/R0mainMK/BowserGallery/blob/main/Commands.md)
 - Picture Request Guidelines
 - Error codes and troubleshooting
 - [Bot Terms of Service](https://bowser.gallery/terms.html)
