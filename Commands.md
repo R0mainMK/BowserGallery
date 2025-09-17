@@ -46,9 +46,12 @@ Requests are reviewed depending of my availability. If your request gets added, 
 
 **Error codes**
 
-**403** - Server administrators disabled the command in ``/settings``. 
+**403** - Server administrators disabled the command in ``/settings``.
+
 **406** - File is not accepted. (wrong file type)
+
 **413** - File is too large. Please be sure your image is less than 4MB.
+
 **417** - User or Server is banned from creating requests.
 
 ## /viewreq
