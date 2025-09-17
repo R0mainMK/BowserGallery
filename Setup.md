@@ -3,7 +3,7 @@
 - In the Discord App Directory you can search by typing "Bowser" and normally it cames as the first result, or you can go [here](https://discord.com/discovery/applications/1244618426228674642)
 - Click on "Add App"
 - You are asked to choose a server to install the bot, please note that you need the *"Manage Server"* permission, or the *"Administrator"* permission or being the owner of the server to add the bot to the server you want.
-- You are now showing the permissions that the bot is seeking for, change nothing and click on "Authorize"
+- You are now viewing the permissions that the bot is seeking for, change nothing and click on "Authorize"
 - And that's it! The bot is installed. Have fun!
 
   ## Frequentely Asked Questions
