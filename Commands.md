@@ -32,6 +32,8 @@ May return ``"Requested by <user>"`` or ``"Requester not credited as per user re
 
 **417** - Server is banned from using the bot.
 
+**422** - User DMs are turned off and Bowser Gallery was unable to deliver the message.
+
 ## /request
 
 *Options: ``<img>`` (Required), ``<show_name>`` (Required)*
