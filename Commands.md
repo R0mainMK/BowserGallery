@@ -95,5 +95,9 @@ Returns some useful information about the Bowser Gallery such as the creator, it
 
 A future command that will allow server admins to manage the bot for their server such as allowing certain types of commands to be run in the server or not and more. No ETA planned for the release of this command.
 
+**Error codes**
+
+**409** - Command is not available yet on the target server.
+
 ---
 And that's it! If you need further assistance for the bot on how it works, you can contact me!
