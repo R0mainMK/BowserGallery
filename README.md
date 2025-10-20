@@ -14,7 +14,7 @@ This Application can be installed on your Discord server [here](https://discord.
 
 - [Setup guide](https://github.com/R0mainMK/BowserGallery/blob/main/Setup.md)
 - [Commands](https://github.com/R0mainMK/BowserGallery/blob/main/Commands.md)
-- Picture Request Guidelines
+- [Picture Request Guidelines](https://github.com/R0mainMK/BowserGallery/blob/main/RequestGuidelines.md)
 - Error codes and troubleshooting
 - [Bot Terms of Service](https://bowser.gallery/terms.html)
 - [Bot Privacy Policy](https://bowser.gallery/privacy.html)
