@@ -10,13 +10,17 @@ Return a random saved URL of a Bowser picture unless ``picture_id`` is specified
 
 May return ``"Requested by <user>"`` or ``"Requester not credited as per user request"`` if the picture come from a picture request.
 
-**Error codes**
+**Status codes**
 
 **Discord: Command is outdated** - Simply relaunch your Discord client. That just means I updated the command in the meantime.
+
+**200** - Command has been fully executed (debug)
 
 **403** - Server administrators disabled the command in ``/settings``. 
 
 **417** - Server is banned from using the bot.
+
+**429** - Too many commands have been sent by the user. (Limit is 15 per user/minute)
 
 ## /dmpic
 
@@ -26,13 +30,17 @@ Return a random saved URL picture of Bowser in your Discord direct messages. Ple
 
 May return ``"Requested by <user>"`` or ``"Requester not credited as per user request"`` if the picture come from a picture request.
 
-**Error codes**
+**Status codes**
+
+**200** - Command has been fully executed (debug)
 
 **403** - Server administrators disabled the command in ``/settings``. 
 
 **417** - Server is banned from using the bot.
 
 **422** - User DMs are turned off and Bowser Gallery was unable to deliver the message.
+
+**429** - Too many commands have been sent by the user. (Limit is 15 per user/minute)
 
 ## /request
 
@@ -46,7 +54,9 @@ Once ran, you'll see the request guidelines showing up and 2 buttons, "Send" and
 
 Requests are reviewed depending of my availability. If your request gets added, you will get a DM from the bot. You can follow the status of your request at any time with the request number you got from the bot with the ``/viewreq`` command.
 
-**Error codes**
+**Status codes**
+
+**201** - Command has been fully executed and a request has been created (debug).
 
 **403** - Server administrators disabled the command in ``/settings``.
 
@@ -70,7 +80,9 @@ Return the status of a picture request made by a user.  ``<reqid> `` must be a n
 
 *For privacy purposes, requester Discord username and internal ID aren't shown in this command.*
 
-**Error codes**
+**Status codes**
+
+**302** - Command has been fully executed and request has been found (debug)
 
 **404** - Request ID supplied is not found.
 
@@ -97,7 +109,9 @@ Returns some useful information about the Bowser Gallery such as the creator, it
 
 A future command that will allow server admins to manage the bot for their server such as allowing certain types of commands to be run in the server or not and more. No ETA planned for the release of this command.
 
-**Error codes**
+**Status codes**
+
+**200** - Command has been fully executed (debug)
 
 **409** - Command is not available yet on the target server.
 
