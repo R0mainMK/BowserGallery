@@ -22,6 +22,8 @@ May return ``"Requested by <user>"`` or ``"Requester not credited as per user re
 
 **429** - Too many commands have been sent by the user. (Limit is 15 per user/minute)
 
+**502** - bowser.gallery is not reachable (automatically notify the Bot Owner)
+
 ## /dmpic
 
 *No options*
@@ -41,6 +43,8 @@ May return ``"Requested by <user>"`` or ``"Requester not credited as per user re
 **422** - User DMs are turned off and Bowser Gallery was unable to deliver the message.
 
 **429** - Too many commands have been sent by the user. (Limit is 15 per user/minute)
+
+**502** - bowser.gallery is not reachable (automatically notify the Bot Owner)
 
 ## /request
 
